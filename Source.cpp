@@ -134,3 +134,4 @@ void handleLed2Off() {
     digitalWrite(led2, LOW);
     server.send(200, "text/html", "<h1>LED 2 is OFF</h1><a href=\"/\">Go back</a>");
 }
+
